@@ -1,0 +1,34 @@
+NAME
+    RT-Extension-TicketPreview - Show a snippet of the ticket message in
+    search results
+
+DESCRIPTION
+    This extension adds a snippet of the ticket message to the search
+    results preview.
+
+INSTALLATION
+    perl Makefile.PL
+    make
+    make install
+        May need root permissions
+
+    Edit your /opt/rt4/etc/RT_SiteConfig.pm
+        If you are using RT 4.2 or greater, add this line:
+
+            Plugin('RT::Extension::TicketPreview');
+
+    Clear your mason cache
+            rm -rf /opt/rt4/var/mason_data/obj
+
+    Restart your webserver
+
+AUTHOR
+    David Schmidt <davewood@gmx.at>
+
+LICENSE AND COPYRIGHT
+    This software is Copyright (c) 2016 by David Schmidt
+
+    This is free software, licensed under:
+
+      The GNU General Public License, Version 2, June 1991
+
