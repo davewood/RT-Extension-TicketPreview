@@ -10,7 +10,7 @@ CONFIGURATION
     By default the first 3 non-empty lines of the ticket message are
     displayed. You can change this value in *etc/RT_SiteConfig.pm* file.
 
-    Set( %TicketPreview, num_lines = 5 );>
+    Set( %TicketPreview, num_lines => 5 );
 
 INSTALLATION
     perl Makefile.PL

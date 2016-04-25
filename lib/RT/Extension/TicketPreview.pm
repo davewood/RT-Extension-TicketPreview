@@ -17,7 +17,7 @@ This extension adds a snippet of the ticket message to the search results previe
 By default the first 3 non-empty lines of the ticket message are displayed.
 You can change this value in I<etc/RT_SiteConfig.pm> file.
 
-C<Set( %TicketPreview, num_lines => 5 );>
+Set( %TicketPreview, num_lines => 5 );
 
 =head1 INSTALLATION
 
