@@ -12,6 +12,13 @@ RT-Extension-TicketPreview - Show a snippet of the ticket message in search resu
 
 This extension adds a snippet of the ticket message to the search results preview.
 
+=head1 CONFIGURATION
+
+By default the first 3 non-empty lines of the ticket message are displayed.
+You can change this value in I<etc/RT_SiteConfig.pm> file.
+
+C<Set( %TicketPreview, num_lines => 5 );>
+
 =head1 INSTALLATION
 
 =over
