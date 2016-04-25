@@ -1,0 +1,10 @@
+<%init>
+$COLUMN_MAP->{TicketPreview} = {
+    title => 'TicketPreview',
+    value => sub { return loc($_[0]->TicketPreview) }
+};
+</%init>
+<%args>
+$COLUMN_MAP => undef
+$GenericMap => undef
+</%args>
