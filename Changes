@@ -1,5 +1,6 @@
     - always use the first attachment with ContentType
       'text/plain' for the preview.
+    - uft8_decode preview text
 
 0.02 2016-04-25
     - make the number of previewed lines configurable
